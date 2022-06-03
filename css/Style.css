@@ -1,0 +1,100 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 0px;
+    background-color: #efefef
+    ;
+}
+.inicio {
+text-align: center;
+
+}
+.container {
+    align-items: center;
+}
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0rem;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+
+}
+section article h2, section article p {
+    margin: 1rem;
+}
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,1.3);
+}
+
+
+ul {
+    list-style: none;
+    text-align: right;
+    padding-left: 0px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 2rem;
+}
+footer section {
+    float: right;
+}
+footer p {
+    margin: 0px;
+}
+footer a {
+    transition: 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:greenyellow
+}
+    
+.head-menu{
+        background: #000;
+        color: #fff;
+        height: 90px;
+        width:100%
+     }
+.logo{
+        letter-spacing: 3px;
+        font-size: 40px;
+        color: #fff;
+        align-items: center;
+       
+    }
+.logo-nav{
+        display: flex;
+        color: white;
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+    
+      }  
+.txt-nav{
+        flex-grow: 1;
+    }
+    
+.txt-nav ul{
+        display: flex;
+        color: white;
+        list-style: none;
+        justify-content: space-around;
+    }
+.txt-nav  a{
+        color: white;
+        text-decoration: none
+        
+    }
+.txt-nav a:hover {
+    color: greenyellow;
+}
